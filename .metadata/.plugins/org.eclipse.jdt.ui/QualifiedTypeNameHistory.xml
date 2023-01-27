@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="entities.Entity"/>
+    <fullyQualifiedTypeName name="coursesProject.business.abstracts.ICategoryService"/>
+    <fullyQualifiedTypeName name="coursesProject.business.abstracts.ICourseService"/>
+    <fullyQualifiedTypeName name="coursesProject.core.utils.BusinessRule"/>
+    <fullyQualifiedTypeName name="coursesProject.business.abstracts.IInstructorService"/>
+    <fullyQualifiedTypeName name="dataAccess.abstracts.IEntityDao"/>
+    <fullyQualifiedTypeName name="coursesProject.core.logging.abstracts.Logger"/>
+    <fullyQualifiedTypeName name="coursesProject.core.logging.concretes.FileLogger"/>
+    <fullyQualifiedTypeName name="coursesProject.core.logging.concretes.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="coursesProject.core.logging.concretes.EmailLogger"/>
+    <fullyQualifiedTypeName name="dataAccess.concretes.HibernateDao"/>
+    <fullyQualifiedTypeName name="coursesProject.business.concretes.CourseManager"/>
+    <fullyQualifiedTypeName name="dataAccess.concretes.JdbcDao"/>
+    <fullyQualifiedTypeName name="coursesProject.business.concretes.CategoryManager"/>
+    <fullyQualifiedTypeName name="coursesProject.business.concretes.InstructorManager"/>
+    <fullyQualifiedTypeName name="entities.Instructor"/>
+    <fullyQualifiedTypeName name="entities.Course"/>
+    <fullyQualifiedTypeName name="entities.Category"/>
+</qualifiedTypeNameHistroy>

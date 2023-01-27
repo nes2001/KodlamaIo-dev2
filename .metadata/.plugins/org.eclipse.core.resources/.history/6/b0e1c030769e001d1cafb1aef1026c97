@@ -1,0 +1,5 @@
+package coursesProject.business.abstracts;
+
+public interface ICourseService {
+
+}

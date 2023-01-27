@@ -1,0 +1,5 @@
+package coursesProject.core.logging.abstracts;
+
+public interface Logger {
+
+}

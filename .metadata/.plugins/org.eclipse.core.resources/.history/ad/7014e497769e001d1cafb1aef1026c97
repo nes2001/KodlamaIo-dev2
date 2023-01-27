@@ -1,0 +1,64 @@
+package coursesProject.business.concretes;
+
+import coursesProject.business.abstracts.ICourseService;
+import coursesProject.core.logging.abstracts.Logger;
+import coursesProject.core.utils.BusinessRule;
+import dataAccess.abstracts.IEntityDao;
+import entities.Course;
+
+public class CourseManager implements ICourseService{
+	
+
+	private final IEntityDao ientityDao;
+	private final Logger[]loggers;
+	
+	
+	
+	
+	
+	public CourseManager(IEntityDao ientityDao, Logger[] loggers) {
+		this.ientityDao = ientityDao;
+		this.loggers = loggers;
+	}
+
+
+	@Override
+	public void add(Course course) {
+             BusinessRule.run("This course name already exists", checkIfCourseNameExists(course));
+		     ientityDao.add(course);
+		     for(Logger logger :loggers) {
+		    	 logger.log("Course");
+		     }
+	}
+
+
+	private boolean checkIfCourseNameExists(Course course) {
+
+		Course[]courses= {
+				new Course(1,"Java"),
+				new Course(2,"Illustrator"),
+				new Course(3,"English"),
+				new Course(4,"Piano")
+		};
+		
+		for (Course singleCourse:courses) {
+			if(singleCourse.getName().equals(course.getName()))
+				return true;
+		}
+	return false;
+	}
+
+
+	private boolean checkIfCoursePriceLessThanZero(Course course) {
+		return course.getPrice()<0;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

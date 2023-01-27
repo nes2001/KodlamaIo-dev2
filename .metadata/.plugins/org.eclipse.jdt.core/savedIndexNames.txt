@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Neslihan\Desktop\KodlamaIoÖdev2\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3081883668.index
+3959137331.index

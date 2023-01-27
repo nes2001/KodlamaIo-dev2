@@ -1,0 +1,5 @@
+package coursesProject.core.logging.concretes;
+
+public class DatabaseLogger {
+
+}

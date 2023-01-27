@@ -1,0 +1,5 @@
+package coursesProject.business.concretes;
+
+public class InstructorManager {
+
+}
